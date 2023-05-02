@@ -1,0 +1,191 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: burlywood;
+}
+.header{
+    background-color: beige;
+    height: 80px;
+    margin: 20px;
+}
+.menu{
+list-style-type: none;
+text-align: center;
+
+}
+.menu li a {
+    text-decoration: none;
+    
+}
+nav ul li {
+   list-style-type: none;
+    display: inline-block;
+    padding: 10px;  
+}
+ul li a {
+    color: maroon;
+    letter-spacing: 0.2rem;
+}
+.titre{
+    text-align: center;
+    font-size: xx-small;
+    text-decoration: line-through;
+}
+form{
+    text-align: end;
+    color: beige;
+}
+.logo{
+    text-align: center;
+}
+.images{
+    display: flex;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    animation-duration: 3s;
+    animation-name: images;
+    animation-iteration-count: infinite;
+    width: 1000px;
+    height: px;
+}
+@keyframes images{
+    0%{
+transform: translateX(0);
+    }
+    50%{
+        transform:translateX(-50px) ;
+    }
+}
+.chaussures h1 {
+   align-items: end;
+   font-size: small;
+   color: maroon;
+}
+.chaussures button{
+    color: maroon;
+}
+.chaussures h1 button{
+    text-align: start;
+}
+.chaussures {
+    display: flex;
+    gap: 4em;    
+    
+}
+.xx9  {
+color: maroon;
+}
+.xx9 a{
+    color: greenyellow;
+    font-size: medium;
+    text-decoration: none;
+}
+.nike {
+    color: maroon;
+    font-size: small;
+}
+.nike button{
+    color: maroon;
+}
+.air h1{
+font-size: smaller;
+}
+.chaussures2{
+    display: flex;
+    gap: 4em;
+}
+.nike{
+    font-size: xx-small;
+}
+.nike a{
+    color: greenyellow;
+    font-size: medium;
+}
+.air{
+    font-size: medium;
+    color: maroon;
+}
+.air a{
+    color: greenyellow;
+    text-decoration: none;
+}
+.max{
+    font-size:x-small;
+    color: maroon;
+}
+.jordan{
+    font-size:x-small;
+    color: maroon;
+}
+.jordan a{
+    color: greenyellow;
+    font-size: medium;
+}
+.ultra a{
+    color: greenyellow;
+    text-decoration: none;
+}
+.ultras{
+    color: greenyellow;
+    text-decoration: none;
+}
+.airmax a{
+    color:greenyellow ;
+    text-decoration: none;
+    font-size: medium;
+}
+.airmax{
+    color: maroon;
+    font-size: x-small;
+}
+.max a{
+    color: greenyellow;
+    text-decoration: none;
+    font-size: medium;
+}
+.jrd a{
+color: greenyellow;
+text-decoration: none;
+}
+.marques h1{
+    text-align: center;
+}
+
+}
+.photos{
+    margin:5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+footer{
+    background-color:beige;
+    text-decoration: none;
+    color: burlywood;
+    margin: 0px;
+    height: 150px;
+}
+.footer a{
+    text-align: center;
+    color: burlywood;
+    text-decoration: none;
+}
+.footer img{
+    width: 30px;
+}
+.footer h1{
+    font-size: medium;
+    text-align: end;
+
+}
+.texte{
+    text-align: center;
+    color: beige;
+}
+.texte img{
+    width: 30px;
+}
